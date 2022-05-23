@@ -1,0 +1,27 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+scan                                                              0160h        4
+arrkey                                                            0164h       24
+buffer                                                            017Ch       40
+ans                                                               01A4h        4
+a                                                                 01A8h        4
+b                                                                 01ACh        4
+M                                                                 01B0h        4
+ma_error                                                          01B4h        9
+_base_y                                                           01BDh        4
+_seed                                                             01C1h        4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+op                                                                R5           1
+last_op                                                           R4           1
+dis                                                               R7           1
+_lcd_x                                                            R6           1
+_lcd_y                                                            R9           1
+_lcd_maxx                                                         R8           1
